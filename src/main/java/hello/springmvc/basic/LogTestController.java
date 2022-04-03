@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LogTestController {
 
-    // 로그 선언
+    // 필드에 로그 등록
     // private final Logger log = LoggerFactory.getLogger(getClass());
 
     @RequestMapping("/log-test")
